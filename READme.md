@@ -10,3 +10,6 @@
 - **GDPR:** General Data Protection Regulation, data protection and privacy law in the European Union and the European Economic Area.
 - **Threat actor:** any person or organization that poses a security risk to an organization, system, or individual
 - **SIEM:** Security Information and Event Management, software tools that collects and analyzes security events (like logs) from different parts and devices of an organization.
+- **Social Engineering:** Psychological manipulation of people into performing actions or divulging confidential information.
+- **Phishing:** The use of digital communications to trick people or organizations to give up sensitive information digitally
+- **Spear Phishing:** Targeted phishing attacks directed at specific individuals or organizations, often using personalized information to increase credibility
