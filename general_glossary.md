@@ -9,3 +9,4 @@
 - HIPAA: Health Insurance Portability and Accountability Act of 1996, U.S. legislation that protects sensitive patient health information.
 - GDPR: General Data Protection Regulation, data protection and privacy law in the European Union and the European Economic Area.
 - Threat actor: any person or organization that poses a security risk to an organization, system, or individual
+- SIEM: Security Information and Event Management, software tools that collects and analyzes security events (like logs) from different parts and devices of an organization.
