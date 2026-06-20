@@ -6,7 +6,7 @@
 - The objective is to find a hash collision, which can be found in 2^(n/2) tries on average.
 
 # How is it dangerous?
-1. Digital signatures rely on hash values, an attacke could create 2 documents (a real one and a fraudulent one) and then generate millions of variations of them (not visual alterations, but enough so that the hash of them changes).
+1. Digital signatures rely on hash values, an attacker could create 2 documents (a real one and a fraudulent one) and then generate millions of variations of them (not visual alterations, but enough so that the hash of them changes).
 
 They generate list of hashes and try to find a collision. If found, they can make the victim sign the real document, and because the signature is linked to the hash, they can make the victim's signature valid and verified for the fraudulent document too.
 
@@ -19,4 +19,4 @@ An example of this happened in 2008, when researcherds managed to create a forge
 - Using salting with the hash values. This adds random data to the input of the hash function, which makes it harder to find a collision.
 
 # Note
-MD5 and SHA-1 are considered vulnerable and insecure due to this attack. As of now, SHA-256 and SHA-512 are considered secure due to current computational limitations. But due to Quantum Computing development, this could change in the near future.
+MD5 and SHA-1 are considered vulnerable and insecure due to this attack. As of now, SHA-256 and SHA-512 are considered secure due to current computational limitations. But due to *Quantum Computing* development, this could change in the near future.
